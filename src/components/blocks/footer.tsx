@@ -62,7 +62,7 @@ export function Footer() {
 
       <div className="text-primary mt-10 w-full md:mt-14 lg:mt-20 pb-10">
         <p className="text-muted-foreground text-center text-sm">
-          © {new Date().getFullYear()} Nautix. Alle rettigheter reservert.
+          © {new Date().getFullYear()} Nautix, en del av Nag Software.<br/>Alle rettigheter reservert.
         </p>
       </div>
     </footer>

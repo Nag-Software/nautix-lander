@@ -42,10 +42,10 @@ export const Hero = () => {
         {/* Left side - Main content */}
         <div className="flex-1">
           <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl">
-            Spør Nautix om alt om båten din
+            La Nautix bli din AI-båt-ekspert
           </h1>
 
-          <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
+          <p className="text-muted-foreground text-md mt-5 md:text-xl">
             Nautix er en samtalepartner og ekspert som kjenner båten din. Den henter fram manualer og dokumenter, og hjelper deg å finne mulige løsninger når noe ikke fungerer.
           </p>
 
@@ -67,7 +67,7 @@ export const Hero = () => {
           </div>
 
           <p className="text-muted-foreground mt-4 text-sm leading-snug">
-            Tips: Last opp manualer og legg inn motor/utstyr for best treff.
+            Ingen kredittkort kreves, og ingen skjulte kostnader.
           </p>
         </div>
 
