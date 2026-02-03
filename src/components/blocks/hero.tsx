@@ -42,7 +42,7 @@ export const Hero = () => {
         {/* Left side - Main content */}
         <div className="flex-1">
           <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl">
-            La Nautix bli din AI-båt-ekspert
+            La Nautix bli din Båt-ekspert
           </h1>
 
           <p className="text-muted-foreground text-md mt-5 md:text-xl">
