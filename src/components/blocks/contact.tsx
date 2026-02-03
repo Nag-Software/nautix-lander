@@ -25,10 +25,10 @@ const contactInfo = [
         <div>
           <p className="">Kundeservice</p>
           <Link
-            href="mailto:hei@nagsoftware.no"
+            href="mailto:nautix@nagsoftware.no"
             className="text-muted-foreground hover:text-foreground"
           >
-            hei@nagsoftware.no
+            nautix@nagsoftware.no
           </Link>
         </div>
       </div>
