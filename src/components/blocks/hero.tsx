@@ -42,11 +42,11 @@ export const Hero = () => {
         {/* Left side - Main content */}
         <div className="flex-1">
           <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl">
-            La Nautix bli din Båt-ekspert
+            Overlat problemene til Nautix. Din personlige båt-ekspert.
           </h1>
 
           <p className="text-muted-foreground text-md mt-5 md:text-xl">
-            Nautix er en samtalepartner og ekspert som kjenner båten din. Den henter fram manualer og dokumenter, og hjelper deg å finne mulige løsninger når noe ikke fungerer.
+            Nautix er en samtalepartner og ekspert som kjenner båten din. Den henter fram manualer og dokumenter, og hjelper deg å finne mulige løsninger når problemer oppstår.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">

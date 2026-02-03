@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -37,7 +38,7 @@ export const Navbar = () => {
     >
       <div className="flex items-center justify-between px-6 py-3">
         <Link href="/" className="flex shrink-0 items-center gap-2">
-          <span className="text-xl font-bold">Nautix</span>
+          <Image src="/logos/trans.png" alt="Nautix Logo" width={100} height={30} className="dark:invert" />
         </Link>
 
         {/* Desktop Navigation */}
