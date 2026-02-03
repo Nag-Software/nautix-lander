@@ -97,29 +97,7 @@ export const metadata: Metadata = {
     ],
     apple: [{ url: "/favicon/apple-touch-icon.png", sizes: "180x180" }],
     shortcut: [{ url: "/favicon/favicon.ico" }],
-  },
-  openGraph: {
-    title: "Nautix - Få kontroll på båten din",
-    description:
-      "Nautix hjelper deg med vedlikehold, dokumenter og oversikt – slik at du kan bruke mer tid på sjøen.",
-    siteName: "Nautix",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Nautix - Få kontroll på båten din",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Nautix - Få kontroll på båten din",
-    description:
-      "Nautix hjelper deg med vedlikehold, dokumenter og oversikt – slik at du kan bruke mer tid på sjøen.",
-    images: ["/og-image.jpg"],
-    creator: "Nautix",
-  },
+  }
 };
 
 export default function RootLayout({
