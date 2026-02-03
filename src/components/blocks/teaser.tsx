@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { Card, CardContent } from "@/components/ui/card";
 
 export const Teaser = () => {
@@ -27,10 +29,13 @@ export const Teaser = () => {
                   poster="/hero.webp"
                 >
                   <source src="/teaser.mp4" type="video/mp4" />
-                  <img
+                  <Image
                     src="/hero.webp"
                     alt="Skjermbilde av Nautix med oversikt over båt og vedlikehold"
-                    className="w-full h-auto"
+                    className="h-auto w-full"
+                    width={1600}
+                    height={900}
+                    sizes="100vw"
                   />
                 </video>
               </div>
