@@ -20,9 +20,9 @@ const ITEMS = [
     label: "Funksjoner",
     href: "/#features",
   },
-  { label: "Priser", href: "/pricing" },
   { label: "FAQ", href: "/faq" },
   { label: "Kontakt", href: "/contact" },
+  { label: "Gave", href: "/gave" },
 ];
 
 export const Navbar = () => {
