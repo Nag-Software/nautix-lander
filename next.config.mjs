@@ -1,12 +1,19 @@
 import createMDX from "@next/mdx";
-import type { NextConfig } from "next";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const nextConfig: NextConfig = {
+const withMDX = createMDX({
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: [],
+  },
+});
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
   images: {
     unoptimized: true,
@@ -15,11 +22,5 @@ const nextConfig: NextConfig = {
     root: __dirname,
   },
 };
-const withMDX = createMDX({
-  options: {
-    remarkPlugins: [],
-    rehypePlugins: [],
-  },
-});
 
 export default withMDX(nextConfig);
