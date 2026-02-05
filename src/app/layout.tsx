@@ -8,6 +8,9 @@ import { Navbar } from "@/components/blocks/navbar";
 import { StyleGlideProvider } from "@/components/styleglide-provider";
 import { ThemeProvider } from "@/components/theme-provider";
 import "@/styles/globals.css";
+import { Analytics } from "@vercel/analytics/next"
+
+
 
 const dmSans = localFont({
   src: [
@@ -105,8 +108,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="no" suppressHydrationWarning>
+      <Analytics />
       <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
         <ThemeProvider
           attribute="class"

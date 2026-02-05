@@ -26,17 +26,8 @@ export const Teaser = () => {
                   loop
                   playsInline
                   preload="metadata"
-                  poster="/hero.webp"
                 >
                   <source src="/teaser.mp4" type="video/mp4" />
-                  <Image
-                    src="/hero.webp"
-                    alt="Skjermbilde av Nautix med oversikt over båt og vedlikehold"
-                    className="h-auto w-full"
-                    width={1600}
-                    height={900}
-                    sizes="100vw"
-                  />
                 </video>
               </div>
               <figcaption className="sr-only">
