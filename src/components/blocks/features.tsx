@@ -1,4 +1,4 @@
-import { Anchor, Bell, BookOpen, BrainCircuit, ClipboardList, Wrench } from "lucide-react";
+import { Anchor, Bell, BookOpen, BrainCircuit, ClipboardList, MessageCircle, Wrench } from "lucide-react";
 
 import { DashedLine } from "../dashed-line";
 
@@ -37,6 +37,11 @@ const features = [
     title: "Digital båtlogg",
     description: "Registrer turer, observasjoner og hendelser enkelt fra mobilen.",
     icon: ClipboardList,
+  },
+  {
+    title: "Forum og fellesskap",
+    description: "Del erfaringer, bilder og tips med andre båtfolk i vårt integrerte forum.",
+    icon: MessageCircle,
   },
 ];
 

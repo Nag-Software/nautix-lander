@@ -28,9 +28,9 @@ const features = [
     icon: FileText,
   },
   {
-    title: "Finn erfaringer raskt",
+    title: "Forum og fellesskap",
     description:
-      "Hjelper deg å finne relevante råd og mulige løsninger basert på tilgjengelige kilder.",
+      "Del erfaringer og bilder med andre båtfolk. Lær av fellesskapet og hjelp andre.",
     icon: MessageSquare,
   },
 ];
